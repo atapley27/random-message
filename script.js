@@ -7,7 +7,7 @@ const characters = ['Aang','Katara','Sokka','Toph','Zuko','Azula','Iroh','Monk K
         return `You are ${character}!`
     }
 
-    const nation = () => {
+    const nation = (character) => {
         switch (character){
             case 'Aang': case 'Monk Kiatzu': case 'Appa': case 'Momo': 
                 return 'You are an Air Nomad!'
@@ -27,6 +27,11 @@ const characters = ['Aang','Katara','Sokka','Toph','Zuko','Azula','Iroh','Monk K
                 return 'Go watch Avatar the Last Airbender!';
         }
    
+    }
+
+    const favQuote =() =>{
+        const quotes =['Hello Zuko here',]
+
     }
 
 
